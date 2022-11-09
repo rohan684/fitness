@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+*{
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.nav-scroll-solid{
+    background-color: white;
+}
+.carousel-inner{
+    height:600px;
+    overflow: hidden;
+    background-color: transparent;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.slide-img{
+    max-height:600px
+}
+.carousel-caption{
+    right: 50% !important;
+    top: 10rem !important;
+    left: 6% !important
+}
+.carousel-caption h1{
+    font-family: 'Lora', serif;
+    font-size: 3.3rem;
+}
+.ps-4c{
+    padding-left: 2rem !important;
+}
+.btn-learn{
+    background-color: #1c558f !important;
+}
